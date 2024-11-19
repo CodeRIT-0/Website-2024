@@ -70,13 +70,7 @@ const Juniors=[
         "src":"/Juniors/Aniruddh.jpg",
         "url":"https://www.linkedin.com/in/aniruddh-mantrala-31abb2221/",
         "desc":`A machine learning enthusiast, with experience in building products on streamlit. Gotta love PyTorch. Currently trying a hand at MLOps and delving into the world of DSA. Also a novice web developer who can make mean coffee.`
-    },
-    {
-        "name":"Amogh SK",
-        "src":"/Juniors/Amogh.jpg",
-        "url":"https://in.linkedin.com/in/amogh-sk",
-        "desc":"while(true){Eat.Sleep.Code}",
-    },
+    }
 ]
 
 

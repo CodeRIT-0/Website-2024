@@ -51,7 +51,7 @@ const Intro = () => {
         <h1 id="intro-head">Upcoming Events</h1>
         <h3 class="bold-text">Ice-Breaker 2023</h3>
         <div class="inline-block mt-4 mb-4">
-          <img src="./Website.png" alt="Image" class="h-80" />
+          <img src="./Website.jpeg" alt="Image" class="h-80" />
 <br></br>
           <a
             href="/registration"

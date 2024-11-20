@@ -262,7 +262,7 @@ export default function Home() {
             >
               {load ? (
                 <div className="w-full h-full flex justify-center items-center">
-                  <Image src="/Loader.svg" width={100} height={100}></Image>
+                  <Image src="/Loader.svg" alt="loader" width={100} height={100}></Image>
                 </div>
               ) : (
                 <div className="w-full h-full flex flex-col py-4 px-4 justify-evenly  bg-gray-800 rounded-3xl">

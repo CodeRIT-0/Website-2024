@@ -110,7 +110,7 @@ const Intro = () => {
             </center>
             <p className="text-gray-700">
               Aims to establish a coding culture on campus, reaching every
-              student passionate about coding. The club's motto is to
+              student passionate about coding. The club&apos;s motto is to
               Create-Build-Innovate-Solve.
             </p>
           </motion.div>

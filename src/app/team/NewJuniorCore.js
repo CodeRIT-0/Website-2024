@@ -22,11 +22,59 @@ const NewJuniorCore = [
         "src": "/NewJuniorCore/Ujjwal.jpeg",
         "url": "https://www.linkedin.com/in/ujjwal-jha-1540712a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "desc": "I love coding (when it works), watching movies, and overthinking geopolitics—because why not?"
-    }
+    },
     {
         "name": "Mihir Sai Dudekula",
         "src": "/NewJuniorCore/Mihir.jpg",
         "url": "https://www.linkedin.com/in/mihirsaidudekula/",
         "desc": "Passionate developer. ML and Open Source enthusiast"
+    },
+    {
+        "name": "N Radhesh Shetty",
+        "src": "/NewJuniorCore/Radhesh.jpeg",
+        "url": "https://www.linkedin.com/in/n-radhesh-shetty-86b358253/",
+        "desc": "Unlike others I’m the one who thrives by coding during the day and catching restful nights. Fueled by a deep passion for development technologies and a curiosity for emerging innovations, I’m always eager to learn and grow!"
+    },
+    {
+        "name": "B Karthik",
+        "src": "/NewJuniorCore/Karthik.jpeg",
+        "url": "https://www.linkedin.com/in/BKarthik7",
+        "desc": "A front end explorer who breaks things just to fix them better."
+    },
+    {
+        "name": "Shamanth",
+        "src": "/NewJuniorCore/Shamanth.jpeg",
+        "url": "https://www.linkedin.com/in/shamanthmhiremath",
+        "desc": "I love AIML, but ChatGPT more ❤️ Messi for Life ⚽ Talk to me bout anything and you’re my friend. We can code having a coffee. 🥹"
+    },
+    {
+        "name": "Sai Keerthana",
+        "src": "/NewJuniorCore/Keerthana.jpeg",
+        "url": "https://www.linkedin.com/in/sai-keerthana-thimmapagari-900949270/",
+        "desc": "Tackling DSA probs and diving into blockchain vibes rn. Also, major foodie when I’m not geeking out."
+    },
+    {
+        "name": "Adithya V",
+        "src": "/NewJuniorCore/Adithya.jpeg",
+        "url": "https://www.linkedin.com/in/adithya-v-05418524b/",
+        "desc": "I don’t need sleep. I need answers."
+    },
+    {
+        "name": "Sanchit Vijay",
+        "src": "/NewJuniorCore/Sanchit.jpg",
+        "url": "https://www.linkedin.com/in/sanchiitvijay/",
+        "desc": "I sleep better after having coffee."
+    },
+    {
+        "name": "Jenas Anton",
+        "src": "/NewJuniorCore/Jenas.jpeg",
+        "url": "https://www.linkedin.com/in/jenas-anton/",
+        "desc": "Engineering student specializing in Artificial Intelligence and Data Science at MS Ramaiah Institute of Technology. Experienced in developing advanced AI solutions, including fine-tuning large language models (LLMs) for custom tasks and enhancing image generation using Stable Diffusion. Passionate about leveraging AI to create impactful tools and solve real-world problems, with hands-on expertise in programming, machine learning, and data-driven innovation."
+    },
+    {
+        "name": "Ankush Narayan Balse",
+        "src": "/NewJuniorCore/Ankush.jpeg",
+        "url": "https://www.linkedin.com/in/ankushbalse/",
+        "desc": "Hey guys I am Ankush. I'm a curious coder & love getting to know the working of code. I'm primarily interested in CP and also exploring Web Dev. My talents include staying awake late at night and still piling up energy for the very next day without having a single drop of Coffee."
     }
 ];

@@ -86,7 +86,7 @@ export default function Navbar() {
             ))}
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden pr-8">
             <button
               onClick={toggleMobileMenu}
               className="text-gray-300 hover:text-white focus:outline-none"
@@ -95,7 +95,7 @@ export default function Navbar() {
               <div className="w-6 h-6 relative">
                 <span 
                   className={`
-                    absolute w-full h-0.5 bg-current transform transition-all duration-300
+                    absolute w-full h-0.5 bg-current transform transition-all duration-300 origin-center
                     ${isMenuOpen ? 'rotate-45 top-3' : 'top-1'}
                   `} 
                 />
@@ -107,7 +107,7 @@ export default function Navbar() {
                 />
                 <span 
                   className={`
-                    absolute w-full h-0.5 bg-current transform transition-all duration-300
+                    absolute w-full h-0.5 bg-current transform transition-all duration-300 origin-center
                     ${isMenuOpen ? '-rotate-45 top-3' : 'top-5'}
                   `} 
                 />
@@ -126,24 +126,24 @@ export default function Navbar() {
         >
           <div 
             className={`
-              fixed top-20 right-0 w-64 h-[calc(100vh-80px)] bg-[#2a3239] 
+              fixed top-20 right-0 w-64 h-auto max-h-[calc(100vh-120px)] bg-[#2a3239] 
               transform transition-transform duration-300 ease-in-out
               ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
-              shadow-lg overflow-y-auto
+              rounded-bl-xl shadow-lg overflow-y-auto
             `}
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="px-4 py-6 space-y-2">
+            <div className="px-2 py-4 space-y-1">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
                   href={item.path}
                   className={`
-                    block px-4 py-3 rounded-lg text-base font-medium transition-colors duration-200
-                    ${pathname === item.path ? 'text-[#17cf97]' : 'text-gray-300 hover:text-white'}
+                    block px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200
+                    ${pathname === item.path ? 'text-[#17cf97] bg-[#353e47]' : 'text-gray-300 hover:text-white hover:bg-[#353e47]'}
                     ${item.special 
                       ? 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white'
-                      : 'hover:bg-[#353e47]'
+                      : ''
                     }
                   `}
                   onClick={closeMobileMenu}

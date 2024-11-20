@@ -117,7 +117,7 @@ export default function Home() {
         </div> */}
           <div className="relative px-4 py-8  dark:bg-gray-900 shadow-lg sm:rounded-3xl sm:p-10">
             <div className="max-w-md mx-auto" id="form-area">
-              <h3 className="text-white font-semibold text-center text-3xl">
+              <h3 className="dark:text-white font-semibold text-center text-3xl text-white font-semibold text-center text-3xl">
                 Ice Breaker 24
               </h3>
               <div className="divide-y divide-gray-200">

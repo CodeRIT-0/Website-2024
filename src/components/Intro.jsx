@@ -28,8 +28,8 @@ const Intro = () => {
         <motion.img 
           src="./Intro Video.gif" 
           alt="test" 
-          className="introimg w-full hover:shadow-2xl transition-shadow duration-300"
-          transition={{ duration: 0.3 }}
+          className="introimg w-full hover:shadow-2xl transition-shadow duration-200"
+          transition={{ duration: 0.2 }}
         />
       </motion.div>
 

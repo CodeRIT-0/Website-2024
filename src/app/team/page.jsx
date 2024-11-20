@@ -1,5 +1,5 @@
 import FacultyCard from "@/src/Card/FacultyCard"
-import AlumniSection from "@/src/Card/AlumniCard"
+import AlumniSection from "@/src/components/AlumniSection"
 import Card from "@/src/Card/Card"
 import Faculty from "./Faculty"
 import Alumni from "./Alumni"

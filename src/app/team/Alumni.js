@@ -41,62 +41,62 @@ const Alumni=[
     },
     {
         "name":"Ayush Jain",
-        "src":"/Seniors/Ayush.jpg",
+        "src":"/Alumni/Ayush.jpg",
         "url":"https://www.linkedin.com/in/ayush-jain-b4540a17b/"
     },
     {
         "name":"Abhiroop Singh",
-        "src":"/Seniors/Abhiroop.jpg",
+        "src":"/Alumni/Abhiroop.jpg",
         "url":"https://www.linkedin.com/in/abhiroop-singh-49043320a/"
     },
     {
         "name":"Ninaad P S",
-        "src":"/Seniors/Ninaad.jpg",
+        "src":"/Alumni/Ninaad.jpg",
         "url":"https://www.linkedin.com/in/ninaad-shenoy-825039211/"
     },
     {
         "name":"Ashish Upadhyay",
-        "src":"/Seniors/Ashish.jpg",
+        "src":"/Alumni/Ashish.jpg",
         "url":"https://www.linkedin.com/in/ashish-upadhyay-51aa211b8"
     },
     {
         "name":"Arya",
-        "src":"/Seniors/Arya.jpg",
+        "src":"/Alumni/Arya.jpg",
         "url":"http://linkedin.com/in/arya-151512203"
     },
     {
         "name":"Anirudha Dargar",
-        "src":"/Seniors/Anirudha.jpg",
+        "src":"/Alumni/Anirudha.jpg",
         "url":"https://www.linkedin.com/in/anirudha-dargar-726bb6236/"
     },
     {
         "name":"Maitri P",
-        "src":"/Seniors/Maitri.jpg",
+        "src":"/Alumni/Maitri.jpg",
         "url":"https://www.linkedin.com/in/maitri-p-tadas-25286b202"
     },
     {
         "name":"Jay Jariwala",
-        "src":"/Seniors/Jay.jpg",
+        "src":"/Alumni/Jay.jpg",
         "url":"https://www.linkedin.com/in/jay-jariwala-b13528223/"
     },
     {
         "name":"Ishaan V Shetty ",
-        "src":"/Seniors/Ishaan.jpg",
+        "src":"/Alumni/Ishaan.jpg",
         "url":"https://www.linkedin.com/in/ishaanshetty2040"
     },
     {
         "name":"Prajwal B Mahendarkar ",
-        "src":"/Seniors/Prajwal.jpg",
+        "src":"/Alumni/Prajwal.jpg",
         "url":"https://www.linkedin.com/in/prajwal-b-mehendarkar-657544210"
     },
     {
         "name":"Rishu Rai",
-        "src":"/Seniors/Rishu.jpg",
+        "src":"/Alumni/Rishu.jpg",
         "url":"https://www.linkedin.com/in/rishu-rai-b2098a205"
     },
     {
         "name":"Harsh Dutta Tewari",
-        "src":"/Seniors/Harsh.jpg",
+        "src":"/Alumni/Harsh.jpg",
         "url":"https://www.linkedin.com/in/harsh-dutta-tewari/"
     }    
 ]

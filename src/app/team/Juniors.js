@@ -12,6 +12,12 @@ const Juniors=[
         "desc": "I'm the one you talk to for anything Low-Level tech, Minecraft, Linux, Neovim and Metal Music. I love having nerdy discussions/rants :D"
     },
     {
+        "name": "Sanchit Vijay",
+        "src": "/Juniors/Sanchit.jpg",
+        "url": "https://www.linkedin.com/in/sanchiitvijay/",
+        "desc": "I sleep better after having coffee. Ore wa monkey d luffy, kaizoku you are the right one !"
+    },
+    {
         "name": "Ananya Singh",
         "src": "/Juniors/Ananya.jpg",
         "url": "https://www.linkedin.com/in/ananya-singh-a81061248",
@@ -64,12 +70,6 @@ const Juniors=[
         "src": "/Juniors/Adithya.jpeg",
         "url": "https://www.linkedin.com/in/adithya-v-05418524b/",
         "desc": "I don’t need sleep. I need answers."
-    },
-    {
-        "name": "Sanchit Vijay",
-        "src": "/Juniors/Sanchit.jpg",
-        "url": "https://www.linkedin.com/in/sanchiitvijay/",
-        "desc": "I sleep better after having coffee."
     },
     {
         "name": "Jenas Anton",

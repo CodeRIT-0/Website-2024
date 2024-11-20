@@ -54,7 +54,7 @@ const Juniors=[
         "desc": "A front end explorer who breaks things just to fix them better."
     },
     {
-        "name": "Shamanth",
+        "name": "Shamanth Hiremath",
         "src": "/Juniors/Shamanth.jpeg",
         "url": "https://www.linkedin.com/in/shamanthmhiremath",
         "desc": "I love AIML, but ChatGPT more ❤️ Messi for Life ⚽ Talk to me bout anything and you’re my friend. We can code having a coffee. 🥹"

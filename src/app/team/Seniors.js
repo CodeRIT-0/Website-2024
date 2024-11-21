@@ -33,7 +33,7 @@ const Seniors=[
         "name":"Nikith",
         "src":"/Seniors/Nikith.jpg",
         "url":"https://www.linkedin.com/in/nikith-ganga/",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
+        "desc":"We are the Senior core member of this prestigious club of Ramaiah"
     },
     {
         "name":"Siddharth",
@@ -45,7 +45,7 @@ const Seniors=[
         "name":"Yashashwini Singh",
         "src":"/Seniors/Yashi.jpg",
         "url":"http://www.linkedin.com/in/yashashwini-singh-679a6122a",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
+        "desc":"We are the Senior core member of this prestigious club of Ramaiah"
     },
     {
         "name":"Arjun Golla",
@@ -57,13 +57,13 @@ const Seniors=[
         "name":"Shreyansh Narayana",
         "src":"/Seniors/Shreyansh.jpg",
         "url":"https://www.linkedin.com/in/shreyansh-narayan-878b09222/",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
+        "desc":"We are the Senior core member of this prestigious club of Ramaiah"
     },
     {
         "name":"Meena Kumari",
         "src":"/Seniors/Meena.jpg",
         "url":"https://www.linkedin.com/in/shreyansh-narayan-878b09222/",
-        "desc":"We are the Junior core member of this prestigious club of Ramaiah"
+        "desc":"We are the Senior core member of this prestigious club of Ramaiah"
     },
     {
         "name":"Aniruddh Mantrala",

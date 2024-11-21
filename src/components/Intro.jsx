@@ -134,8 +134,8 @@ const Intro = () => {
           <motion.img 
             src="./poster.png" 
             alt="Image" 
-            className="h-80 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            whileHover={{ scale: 1.05 }}
+            className="h-[32rem] rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           />
           <br />

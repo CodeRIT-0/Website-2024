@@ -257,24 +257,26 @@ export default function Home() {
             <div
               className={`${
                 showWindow ? "" : "hidden"
-              } absolute z-10 w-[90%] h-[200px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
+              } absolute z-10 w-[90%] h-auto min-h-[200px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2`}
             >
               {load ? (
                 <div className="w-full h-full flex justify-center items-center">
-                  <Image src="/Loader.svg" alt="loader" width={100} height={100}></Image>
+                  <div className="w-16 h-16 sm:w-24 sm:h-24">
+                    <Image src="/Loader.svg" alt="loader" width={100} height={100} className="w-full h-full"></Image>
+                  </div>
                 </div>
               ) : (
-                <div className="w-full h-full flex flex-col py-6 px-8 justify-evenly bg-gray-800 rounded-2xl shadow-2xl">
-                  <h1 className="text-center text-3xl font-bold text-white">
+                <div className="w-full h-full flex flex-col py-8 px-6 justify-evenly bg-gray-800 rounded-2xl shadow-2xl">
+                  <h1 className="text-center text-2xl sm:text-3xl font-bold text-white mb-6">
                     Your Response was Recorded
                   </h1>
-                  <div className="flex justify-evenly w-full gap-4">
+                  <div className="flex flex-col gap-4 w-full px-4">
                     <a
                       onClick={() => {
                         setShowWindow(false);
                         router.push('/');
                       }}
-                      className="flex-1 py-3 text-center text-white bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 rounded-lg font-medium transform transition-all hover:scale-[1.02] duration-200"
+                      className="py-4 text-center text-white bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 rounded-xl font-medium transform transition-all hover:scale-[1.02] duration-200 shadow-lg"
                       href="/"
                     >
                       Cancel
@@ -285,7 +287,7 @@ export default function Home() {
                         router.push('/');
                         window.open('https://chat.whatsapp.com/FeFzoAe63rpAaZPrTCYjyx', '_blank');
                       }}
-                      className="flex-1 py-3 text-center text-white bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 rounded-lg font-medium transform transition-all hover:scale-[1.02] duration-200"
+                      className="py-4 text-center text-white bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 rounded-xl font-medium transform transition-all hover:scale-[1.02] duration-200 shadow-lg"
                     >
                       Join WhatsApp Community
                     </a>

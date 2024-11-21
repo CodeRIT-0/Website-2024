@@ -20,7 +20,7 @@ const Intro = () => {
   return (
     <div id="intro" className="flex flex-col items-center bg-gradient-to-b from-white via-blue-50 to-white">
       <motion.div 
-        className="container"
+        className="w-full mt-5" 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -28,7 +28,7 @@ const Intro = () => {
         <motion.img 
           src="./Intro Video.gif" 
           alt="test" 
-          className="introimg w-full hover:shadow-2xl transition-shadow duration-200"
+          className="w-full object-cover rounded-b-3xl" 
           transition={{ duration: 0.2 }}
         />
       </motion.div>

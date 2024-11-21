@@ -40,6 +40,7 @@ export default function Home() {
   const [message, setMessage] = useState({ text: "", color: "" });
   const [showMsg, setShowMsg] = useState(false);
   const [showWindow, setShowWindow] = useState(false);
+  const [showInfoModal, setShowInfoModal] = useState(false);
   const [load, setLoad] = useState(true);
   const [student, setStudent] = useState({
     name: "",
@@ -49,7 +50,7 @@ export default function Home() {
     phone: "",
     queries: "",
   });
-  console.log(student);
+
   const handleChange = (e) => {
     e.preventDefault();
     const name = e.target.name;
@@ -60,14 +61,15 @@ export default function Home() {
   useEffect(() => {
     const formArea = document.querySelector("#form-area");
 
-    if (showWindow) {
+    if (showWindow || showInfoModal) {
       formArea.classList.add("blur-lg");
+    } else {
+      formArea.classList.remove("blur-lg");
     }
-  }, [showWindow]);
+  }, [showWindow, showInfoModal]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("askdljaslkdjsalks");
     if (
       !student.name ||
       !student.usn ||
@@ -110,8 +112,15 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative min-h-screen bg-gradient-to-br  from-blue-100 via-white to-blue-100 py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+      <div className="relative min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-100 py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
         <div className="relative w-full max-w-2xl">
+          <button
+            onClick={() => setShowInfoModal(true)}
+            className="absolute top-4 right-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all duration-200 transform hover:scale-105"
+          >
+            Event Info
+          </button>
+
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl transform transition-all hover:scale-[1.01] duration-300">
             <div className="px-8 py-12 mt-20" id="form-area">
               <div className="text-center mb-12">
@@ -254,6 +263,63 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Info Modal */}
+            <div className={`${showInfoModal ? "" : "hidden"} fixed inset-0 z-50 overflow-y-auto`}>
+              <div className="flex items-center justify-center min-h-screen px-4">
+                <div className="fixed inset-0 bg-black opacity-50"></div>
+                <div className="relative bg-white dark:bg-gray-800 rounded-lg max-w-2xl w-full mx-4 p-6 overflow-y-auto max-h-[90vh]">
+                  <button
+                    onClick={() => setShowInfoModal(false)}
+                    className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                  >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                  
+                  <div className="space-y-4 text-gray-800 dark:text-gray-200">
+                    <h2 className="text-3xl font-bold text-center mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                      🎉 ICEBREAKER 2024 🎉
+                    </h2>
+                    
+                    <p className="text-lg font-semibold text-center">
+                      CodeRIT– The Official Coding Club of Ramaiah Institute of Technology presents...
+                    </p>
+
+                    <div className="space-y-4 mt-6">
+                      <h3 className="text-xl font-bold">💻 What to Expect?</h3>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li>A peek into what CodeRIT does 🧑‍💻</li>
+                        <li>Discover how we can help you in your coding journey 🚀</li>
+                        <li>A warm welcome for coding enthusiasts of all levels 🌟</li>
+                        <li>Beginners or even those who have no idea about coding – YOU ARE WELCOME! 🎊</li>
+                      </ul>
+
+                      <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
+                        <h3 className="font-bold">📅 Event Details:</h3>
+                        <p>Date: Friday, 22nd November 2024</p>
+                        <p>Time: 1:45 PM</p>
+                        <p>Venue: ESB Seminar Hall 1</p>
+                      </div>
+
+                      <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
+                        <h3 className="font-bold">📞 Contact Information:</h3>
+                        <p>Yashashwini Singh: +91 99027 27689</p>
+                        <p>Nikith Ganga: +91 81977 34232</p>
+                      </div>
+
+                      <div className="border-t border-gray-300 dark:border-gray-600 pt-4">
+                        <h3 className="font-bold">🔗 Important Links:</h3>
+                        <p>WhatsApp Community: <a href="https://lnkd.in/gsn28dac" className="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">https://lnkd.in/gsn28dac</a></p>
+                        <p>LinkTree: <a href="http://linktr.ee/code_rit" className="text-blue-500 hover:text-blue-600" target="_blank" rel="noopener noreferrer">linktr.ee/code_rit</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Success/Loading Modal */}
             <div
               className={`${
                 showWindow ? "" : "hidden"

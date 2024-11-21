@@ -28,7 +28,7 @@ const Intro = () => {
         <motion.img 
           src="./Intro Video.gif" 
           alt="test" 
-          className="w-full object-cover rounded-b-3xl" 
+          className="w-full object-cover max-h-[calc(100vh-80px)]" 
           transition={{ duration: 0.2 }}
         />
       </motion.div>
@@ -39,6 +39,7 @@ const Intro = () => {
         initial="initial"
         whileInView="whileInView"
         viewport={{ once: true }}
+        className="mt-10"
       >
         <center>
           <motion.h1 
@@ -51,7 +52,7 @@ const Intro = () => {
         <motion.p 
           id="intro-para"
           variants={fadeInUp}
-          className="leading-relaxed text-gray-700"
+          className="leading-relaxed text-gray-700 -mt-8"
         >
           CodeRIT is the official coding club of our college and the most active
           technical club our college. We guide students through their journey to

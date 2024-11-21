@@ -272,6 +272,7 @@ export default function Home() {
                     <a
                       onClick={() => {
                         setShowWindow(false);
+                        router.push('/');
                       }}
                       className="flex-1 py-3 text-center text-white bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 rounded-lg font-medium transform transition-all hover:scale-[1.02] duration-200"
                       href="/"
@@ -281,10 +282,10 @@ export default function Home() {
                     <a
                       onClick={() => {
                         setShowWindow(false);
+                        router.push('/');
+                        window.open('https://chat.whatsapp.com/FeFzoAe63rpAaZPrTCYjyx', '_blank');
                       }}
                       className="flex-1 py-3 text-center text-white bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 rounded-lg font-medium transform transition-all hover:scale-[1.02] duration-200"
-                      target="_blank"
-                      href="https://chat.whatsapp.com/FeFzoAe63rpAaZPrTCYjyx"
                     >
                       Join WhatsApp Community
                     </a>

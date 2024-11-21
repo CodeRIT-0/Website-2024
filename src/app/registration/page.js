@@ -113,7 +113,7 @@ export default function Home() {
   return (
     <>
       <div className="relative min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-100 py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
-        <div className="relative w-full max-w-2xl">
+        <div className="relative w-full max-w-2xl mt-10">
           <button
             onClick={() => setShowInfoModal(true)}
             className="absolute top-4 right-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-all duration-200 transform hover:scale-105"
